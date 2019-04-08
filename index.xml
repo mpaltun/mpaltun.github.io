@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Fancy Blog</title>
-    <link>http://example.org/</link>
+    <link>https://mpaltun.github.io/</link>
     <description>Recent content on My Fancy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 23:19:00 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mpaltun.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About me</title>
+      <link>https://mpaltun.github.io/about/</link>
+      <pubDate>Mon, 08 Apr 2019 23:19:00 +0300</pubDate>
+      
+      <guid>https://mpaltun.github.io/about/</guid>
+      <description>I write software. Mostly server software. Mostly in Java. I am originally from Istanbul but currently living in Finland.</description>
+    </item>
     
   </channel>
 </rss>
