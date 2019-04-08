@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Fancy Blog</title>
-    <link>https://mustafa.paltun.net/</link>
-    <description>Recent content on My Fancy Blog</description>
+    <title>Posts on My Fancy Blog</title>
+    <link>https://mustafa.paltun.net/post/</link>
+    <description>Recent content in Posts on My Fancy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Apr 2019 00:36:24 +0300</lastBuildDate>
     
-	<atom:link href="https://mustafa.paltun.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mustafa.paltun.net/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>I am planning to use this blog to create my own event log about software to record things like ideas come up my mind, conclusions of my evaluations, takeaways after reading materials (books, blogs), explanations about how things work, sentences worth to remember and finally things that I always forget and re-google.
 Some examples:
   Do not use the private key for encryption! Only for signing! Use the public key for encryption and the private key for decryption!</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://mustafa.paltun.net/about/</link>
-      <pubDate>Mon, 08 Apr 2019 23:19:00 +0300</pubDate>
-      
-      <guid>https://mustafa.paltun.net/about/</guid>
-      <description>I write software. Mostly server software. Mostly in Java. I am originally from Istanbul but currently living in Finland.</description>
     </item>
     
   </channel>

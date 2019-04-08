@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<meta name="generator" content="Hugo 0.54.0" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
@@ -10,7 +9,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet"> 
 
-        <title>My Fancy Blog</title>
+        <title>What is this blog about?</title>
 
         <link rel="stylesheet" href="/css/stylesheet.css">
     </head>
@@ -27,7 +26,7 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/">Home</a>
+              <a class="nav-item nav-link " href="/">Home</a>
               <a class="nav-item nav-link" href="https://github.com/mpaltun" target="_blank">GitHub</a>
               
               <a class="nav-item nav-link " href="/about/">About</a>
@@ -43,22 +42,33 @@
         </section>
 
 
-<section>
-  <ul class="posts_listing">
-    
-    <li>
-      <div class="row" id="posts">
-        <div class="d-none d-sm-block col-sm-3 date-time-title">
-          <time>09 Apr 2019</time>
-        </div>
-        <div class="col-sm date-time-title post">
-          <a href="/post/my-first-post/">What is this blog about?</a>
-        </div>
-      </div>
-    </li>
-    
-  </ul>
-</section>
+<div class="blog-post">
+  <h1>What is this blog about?</h1>
+  <div class="blog-post-subheader">
+    <time>09 Apr 2019</time>
+  </div>
+  <div class="blog-post-content">
+    <p>I am planning to use this blog to create my own event log about software to record things like ideas come up my mind, conclusions of my evaluations, takeaways after reading materials (books, blogs), explanations about how things work, sentences worth to remember and finally things that I always forget and re-google.</p>
+
+<p>Some examples:</p>
+
+<ul>
+<li><blockquote>
+<p>Do not use the private key for encryption! Only for signing! Use the
+public key for encryption and the private key for decryption!</p>
+</blockquote></li>
+
+<li><blockquote>
+<p>Why buy/add servers when the software is the problem?</p>
+</blockquote></li>
+
+<li><p>Nginx generates etag header using <code>hex(last_modified) + &quot;-&quot; + hex(content_length)</code></p></li>
+
+<li><p>Netflix is using <em>m4.large</em> (8 GB RAM) instances for their Zuul push servers and they are able to handle 84k comfortably on a single server.</p></li>
+</ul>
+
+  </div>
+</div>
 
       <footer>
         <hr>
