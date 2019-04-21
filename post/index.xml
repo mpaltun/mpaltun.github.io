@@ -6,10 +6,20 @@
     <description>Recent content in Posts on My Fancy Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:36:24 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2019 22:59:57 +0300</lastBuildDate>
     
 	<atom:link href="https://mustafa.paltun.net/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Joe Armstrong Hates Shared State</title>
+      <link>https://mustafa.paltun.net/post/why-joe-armstrong-hates-shared-state/</link>
+      <pubDate>Sun, 21 Apr 2019 22:59:57 +0300</pubDate>
+      
+      <guid>https://mustafa.paltun.net/post/why-joe-armstrong-hates-shared-state/</guid>
+      <description>I stumbled across an awesome quote by Joe Armstrong when he was explaining the reason why he hates threads and shared state on a Hacker News Thread (It was an email conversation actually):
+ In distributed systems there is no real shared state (imagine one machine in the USA another in Sweden) where is the shared state? In the middle of the Atlantic? - shared state breaks laws of physics. State changes are propagated at the speed of light - we always know how things were at a remote site not how they are now.</description>
+    </item>
     
     <item>
       <title>What is this blog about?</title>

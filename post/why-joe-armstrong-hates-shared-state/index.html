@@ -9,7 +9,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet"> 
 
-        <title>Posts</title>
+        <title>Why Joe Armstrong Hates Shared State</title>
 
         <link rel="stylesheet" href="/css/stylesheet.css">
     </head>
@@ -42,33 +42,29 @@
         </section>
 
 
-<section>
-  <ul class="posts_listing">
-    
-    <li>
-      <div class="row" id="posts">
-        <div class="d-none d-sm-block col-sm-3 date-time-title">
-          <time>21 Apr 2019</time>
-        </div>
-        <div class="col-sm date-time-title post">
-          <a href="/post/why-joe-armstrong-hates-shared-state/">Why Joe Armstrong Hates Shared State</a>
-        </div>
-      </div>
-    </li>
-    
-    <li>
-      <div class="row" id="posts">
-        <div class="d-none d-sm-block col-sm-3 date-time-title">
-          <time>09 Apr 2019</time>
-        </div>
-        <div class="col-sm date-time-title post">
-          <a href="/post/my-first-post/">What is this blog about?</a>
-        </div>
-      </div>
-    </li>
-    
-  </ul>
-</section>
+<div class="blog-post">
+  <h1>Why Joe Armstrong Hates Shared State</h1>
+  <div class="blog-post-subheader">
+    <time>21 Apr 2019</time>
+  </div>
+  <div class="blog-post-content">
+    <p>I stumbled across an awesome quote by Joe Armstrong when he was explaining the reason why he hates threads and shared state on a <a href="https://news.ycombinator.com/item?id=19708900">Hacker News Thread</a> (It was an email conversation actually):</p>
+
+<blockquote>
+<p>In distributed systems there is no real shared state (imagine one machine in the USA another in Sweden) where is the shared state? In the middle of the Atlantic? - shared state breaks laws of physics.
+State changes are propagated at the speed of light - we always know how things were at a remote site
+not how they are now. What we know is what they last told us. If you make a software abstraction that
+ignores this fact you&rsquo;ll be in trouble.</p>
+</blockquote>
+
+<p>I heard/read similar ideas from him but not in those words and I actually quite like it.</p>
+
+<p>I&rsquo;ll miss him even though I never met him in person but read his writings, watched presentations, retweeted him and (of course) implemented fair amount of programs with Erlang.</p>
+
+<p>RIP Joe.</p>
+
+  </div>
+</div>
 
       <footer>
         <hr>
